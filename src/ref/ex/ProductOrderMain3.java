@@ -21,7 +21,7 @@ public class ProductOrderMain3 {
             int quantity = sc.nextInt();
             sc.nextLine();
 
-            orders[i] = orders[i] = createOrder(productName, price, quantity);
+            orders[i] = createOrder(productName, price, quantity);
         }
 
         printOrders(orders);
